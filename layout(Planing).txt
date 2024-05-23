@@ -1,0 +1,79 @@
+/YourProjectRoot
+├── src
+│   ├── Engine
+│   │   ├── Core
+│   │   │   ├── Initialization.hpp
+│   │   │   ├── Logger.hpp
+│   │   │   ├── ConfigManager.hpp
+│   │   │   ├── ServiceLocator.hpp
+│   │   │   ├── MainLoop.hpp
+│   │   │   ├── ErrorHandler.hpp
+│   │   ├── ECS
+│   │   │   ├── Entity.hpp
+│   │   │   ├── Component.hpp
+│   │   │   ├── EntityManager.hpp
+│   │   │   ├── EntityManager.cpp
+│   │   │   ├── System.hpp
+│   │   │   ├── SystemManager.hpp
+│   │   │   ├── SystemManager.cpp
+│   │   │   ├── SystemManager.tpp
+│   │   ├── Rendering
+│   │   │   ├── Renderer.hpp
+│   │   │   ├── Shader.hpp
+│   │   │   ├── Material.hpp
+│   │   │   ├── Mesh.hpp
+│   │   │   ├── DeferredRenderer.hpp
+│   │   │   ├── DeferredRenderer.cpp
+│   │   │   ├── Shaders
+│   │   │   │   ├── vertex_shader.glsl
+│   │   │   │   ├── fragment_shader.glsl
+│   │   ├── Physics
+│   │   │   ├── PhysicsEngine.hpp
+│   │   │   ├── RigidBody.hpp
+│   │   ├── Audio
+│   │   │   ├── AudioEngine.hpp
+│   │   │   ├── AudioComponent.hpp
+│   │   ├── Input
+│   │   │   ├── InputMapper.hpp
+│   │   │   ├── InputMapper.cpp
+│   │   ├── AI
+│   │   │   ├── AISystem.hpp
+│   │   ├── UI
+│   │   │   ├── UISystem.hpp
+│   │   ├── Resources
+│   │   │   ├── ResourceManager.hpp
+│   │   ├── Events
+│   │   │   ├── Event.hpp
+│   │   │   ├── EventManager.hpp
+│   │   ├── Network
+│   │   │   ├── NetworkSystem.hpp
+│   │   ├── Scripting
+│   │   │   ├── ScriptingSystem.hpp
+│   │   ├── Debug
+│   │   │   ├── DebugSystem.hpp
+│   │   │   ├── Profiler.hpp
+│   │   ├── Utils
+│   │   │   ├── FileSystem.hpp
+│   │   │   ├── Timer.hpp
+│   │   │   ├── Random.hpp
+│   │   │   ├── MemoryManager.hpp
+│   │   ├── Platform
+│   │   │   ├── WindowsSpecific.hpp
+│   │   │   ├── LinuxSpecific.hpp
+│   ├── Scenes
+│   │   ├── Scene.hpp
+│   │   ├── Scene.cpp
+│   │   ├── SceneManager.hpp
+│   │   ├── SceneManager.cpp
+│   ├── main.cpp
+├── include
+│   └── YourProject
+│       ├── All header files for external linkage
+├── build
+│   └── Build directory for compiled objects and executables
+├── assets
+│   └── shaders
+│       ├── vertex_shader.glsl
+│       ├── fragment_shader.glsl
+├── CMakeLists.txt
+└── README.md
